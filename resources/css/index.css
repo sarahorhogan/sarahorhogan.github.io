@@ -1,0 +1,185 @@
+* {
+    /* font-family: Helvetica, Arial, sans-serif; */
+    /* font-family: "Tahoma","sans-serif";  */
+    font-family: 'Raleway', sans-serif;
+
+  }
+   
+   
+  h1 {
+    color: rgb(212, 216, 212);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* font-family: "Tahoma","sans-serif"; */
+    font-family: 'Raleway', sans-serif;
+
+  }
+   
+   
+  p, 
+  li {
+    font-size: 18px;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+   
+   
+  a {
+    text-decoration: none;
+  }
+
+  td p {
+    color: white;
+    display: flex;
+    float: inline-end;
+    padding: 50px;
+    font-size: 20px;
+    font-style: oblique;
+    background-color:rgb(212, 216, 212);
+    border-radius: 3px;
+  }
+
+  td {
+    padding: 20px 50px;
+  }
+
+  #profile {
+    height: 800px;
+  }
+
+  #abouttitle{
+    color:rgb(212, 216, 212);
+   
+    font-family: 'Raleway', sans-serif;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    align-self: center;
+  }
+
+  #about {
+
+      color:rgb(212, 216, 212);
+      display: flex;
+      width: 100%;
+      padding: 10px;
+      /* font-family: "Tahoma","sans-serif"; */
+      font-family: 'Raleway', sans-serif;
+      background-image: url("https://th.bing.com/th/id/OIP.nNPwrZove3O_TIzQjVEmowHaE8?pid=ImgDet&rs=1");
+      background-size: cover;
+      background-position: center;
+      opacity: 0.5;
+      align-content: center;
+      
+  }
+
+
+  #aboutdetails {
+    color:rgb(212, 216, 212);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      /* padding: 10px; */
+      /* font-family: "Tahoma","sans-serif"; */
+      font-family: 'Raleway', sans-serif;
+  }
+
+  #homepagepictures {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+
+  /* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  /* font-family: "Tahoma","sans-serif"; */
+  font-family: 'Raleway', sans-serif;
+}
+
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #b7b3be;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #eef1f5;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    text-align: center;
+  
+  }
+
+#title{
+  color:rgb(212, 216, 212);
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#titlepicture {
+  width: 100%;
+  height: 5px;
+}
+
+
+.profilepic2{
+  border: 3px solid rgb(226, 218, 218);
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+
+/* #Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;} */
+
