@@ -97,6 +97,17 @@
     width: 50%;
   }
 
+  #memoriespictures {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 8px;
+  }
+
 
   /* Set height of body and the document to 100% to enable "full page tabs" */
 body, html {
